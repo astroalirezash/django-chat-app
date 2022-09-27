@@ -1,0 +1,75 @@
+body{margin-top:20px;}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.room {
+    box-shadow: 2px 1px 10px 2px #252526 !important;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #d4c8a0;
+}
+.txt {
+    color: #fff;
+}
+.border5 {
+    border: 2px solid #d4c8a0 !important;
+    /* border-radius: px !important; */
+}
+.mycard {
+    background-color: #333333;
+    border: 2px solid #01736b;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #03fceb8c;
+}
+.time {
+    color: #ffebcdc9
+}
+.room-shadow {
+    box-shadow: 0px 0px 10px 1px #01736b !important;
+}
+.msgbox {
+    max-width: 70%;
+}
