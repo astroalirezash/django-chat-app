@@ -8,6 +8,7 @@ from .views import (
 
 urlpatterns = [
     path('', HostListView.as_view()),
-    path('msgs/<pk>', HostDetailView.as_view())
+    path('msgs/', HostDetailView.as_view()),
+    path('test', TemplateView.as_view(template_name='chat/room.html'))
 ]
 

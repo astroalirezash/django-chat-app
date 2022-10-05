@@ -14,6 +14,12 @@ class BaseModel(models.Model):
 class Host(BaseModel):
     name = models.CharField(verbose_name='نام گروه', max_length=100)
     members = models.ForeignKey(User, on_delete=models.PROTECT, verbose_name='اعضا', related_name='members')
+    
+    def __str__(self):
+        try:
+            return str(self.name)
+        except:
+            return 'Null Name'
 
 
 class Message(BaseModel):

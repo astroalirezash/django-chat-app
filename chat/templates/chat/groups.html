@@ -10,8 +10,8 @@
 			</div>
 		</div>
 	</div>
-	{% for host in hosts %}
+	{% comment %} {% for host in hosts %} {% endcomment %}
 	  {% include 'chat/single_group.html' %}
-	{% endfor %}
+	{% comment %} {% endfor %} {% endcomment %}
 </div>
 {% endblock body %}
